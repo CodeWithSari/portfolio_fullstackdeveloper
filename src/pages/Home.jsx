@@ -34,17 +34,17 @@ function Home() {
     {
       title: "UI/UX Design",
       desc: "User-centric design with clean layouts, prototypes, and intuitive interactions.",
-      img: "./public/uiux.jpeg",
+      img: "/uiux.jpeg",
     },
     {
       title: "React Frontend Development",
       desc: "Build dynamic and responsive user interfaces using React for modern web applications.",
-      img: "./public/react.png",
+      img: "/react.png",
     },
     {
       title: "MongoDB Express Backend",
       desc: "Develop robust backend systems and RESTful APIs with Express and MongoDB for seamless, secure, and scalable applications.",
-      img: "/public/backend.jpg",
+      img: "/backend.jpg",
     },
     {
       title: "SEO Optimized Websites",
@@ -91,7 +91,7 @@ function Home() {
         <Grid item xs={12} md={6}>
           <Box sx={{ textAlign: { xs: "center", md: "right" } }}>
             <img
-              src="./public/coding.png"
+              src="/coding.png"
               alt="Developer at work"
               style={{ width: "100%", maxWidth: "400px", borderRadius: "12px" }}
             />

@@ -5,7 +5,7 @@ import ProjectCard from "../components/ProjectCard";
 const projectData = [
   {
     title: "Spice-Delight-Restaurant",
-    image: "./public/spicedelight.png",
+    image: "/spicedelight.png",
     tech: "HTML, CSS",
     link: "https://spice-delight-restaurant.vercel.app/",
     link2: "https://github.com/CodeWithSari/Spice-Delight-Restaurant",
@@ -13,7 +13,7 @@ const projectData = [
   
   {
     title: "Travel Blog Website",
-    image: "./public/travelblog.png",
+    image: "/travelblog.png",
     tech: "HTML5, CSS3, Bootstrap 5",
     link: "https://travel-blog-the-wandering-soul.vercel.app/index.html",
     link2: "https://github.com/CodeWithSari/Travel-blog--The-Wandering-Soul",
@@ -21,14 +21,14 @@ const projectData = [
 
   {
     title: "TaskFlow-Todo-App",
-    image: "./public/todoapp.png",
+    image: "/todoapp.png",
     tech: "HTML, Tailwind CSS, JavaScript.",
     link: "https://task-flow-todo-app.vercel.app/",
     link2: "https://github.com/CodeWithSari/TaskFlow-Todo-App",
   },
   {
     title: "Banking Web App",
-    image: "./public/bankapp.png",
+    image: "/bankapp.png",
     tech: "HTML, CSS, JavaScript, Tailwind CSS",
     link: "https://js-banking-app-edge-bank.vercel.app/",
       link2: "https://github.com/CodeWithSari/JS-BankingApp-EdgeBank",
@@ -36,7 +36,7 @@ const projectData = [
   },
   {
     title: "SnapCart-ProductFetching",
-    image: "./public/productfetching.png",
+    image: "/productfetching.png",
     tech: "React, Vite, React-Bootstrap ,dummyjson.com API",
     link: "https://snap-cart-product-fetching-react.vercel.app/",
       link2: "https://github.com/CodeWithSari/SnapCart-ProductFetching-React/tree/master",
